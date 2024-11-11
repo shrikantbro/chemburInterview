@@ -28,7 +28,7 @@ const handlefetchUserData = async(req, res) => {
             $options: 'i' 
         }})
         console.log(userData);
-
+        res.status(200).json({userList: userData})
     } catch (error) {
         console.log('Error occured in handlefetchUserData due to ',error.message);        
     }
