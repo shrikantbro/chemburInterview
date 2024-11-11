@@ -1,0 +1,12 @@
+###Fetch user
+POST http://localhost:5003/user
+Content-Type: application/json
+
+{
+    "name": "Shrikant"
+}
+
+###Fetching user
+GET http://localhost:5003/user/Sh
+
+
